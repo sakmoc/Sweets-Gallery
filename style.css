@@ -1,0 +1,462 @@
+@media screen and (min-width: 767px) {
+
+
+body {
+    margin:0;
+}
+
+
+header {
+    height:70px;
+    width:100%;
+    background-color:#593b43;
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+
+.header-logo {
+    width:250px;
+    line-height:70px;
+    padding-left:30px;
+    font-size: 20px;
+    font-family: 'Book Antiqua';
+    color:#F1B8B1;
+}
+
+
+main {
+    height:2800px;
+    background-color:  #F1B8B1;
+}
+
+.top-wrapper {
+    height:18%;
+}
+
+.container {
+    height:85%;
+    width:80%;
+    margin:70px auto;
+    padding-top: 20px;
+    color:#593b43;
+}
+
+.heading h1 {
+    font-size: 100px;
+    font-family:'Book Antiqua' ;
+    margin:20px 0;
+}
+
+.heading {
+    height: 100%;
+    width:40%;
+    margin:70px 40px 50px 70px;
+    float:left;
+}
+
+.sentence p {
+    display:block;
+    font-size: 30px;
+    font-family: 'Book Antiqua';
+    text-align: center;
+}
+
+.sentence {
+    height:100%;
+    width:40%;
+    margin:80px 50px 40px 50px;
+    float:left;
+}
+
+.gallery-wrapper {
+    height:82%;
+    margin-top:0;
+    background-image: url("background-img/flower-lace.jpg");
+    background-color:rgba(241, 184, 177, 0.8);
+    background-blend-mode:lighten;
+}
+
+.gallery-container {
+    height:95%;
+    width:82%;
+    margin:0 auto;
+    
+}
+
+.gallery-container div {
+    padding:2px 2px 2px 2px; 
+    
+}
+
+img {
+    height:100%;
+    width:100%;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.box-01 {
+    width:528px;
+    height:500px;
+    float:left;
+}
+
+.box-02 {
+    width:250px;
+    height:250px;
+    float:left;
+}
+
+.box-03 {
+    width:250px;
+    height:250px;
+    float:left;
+}
+
+.box-04 {
+    width:250px;
+    height:250px;
+    float:left;
+}
+
+.box-05 {
+    width:237px;
+    height:250px;
+    float:left;
+}
+
+.box-06 {
+    width:500px;
+    height:500px;
+    float:right;
+}
+
+.box-07 {
+    width:250px;
+    height:250px;
+    float:right;
+}
+
+.box-08 {
+    
+    width:300px;
+    height:250px;
+    float:right;
+}
+
+.box-09 {
+    width:250px;
+    height:250px;
+    float:right;
+}
+
+.box-10 {
+    
+    width:310px;
+    height:250px;
+    float:right;
+}
+
+.box-11 {
+    width:511px;
+    height:500px;
+    float:left;
+}
+
+.box-12 {
+    width:240px;
+    height:250px;
+    float:left;
+}
+
+.box-13 {
+    width:250px;
+    height:250px;
+    float:left;
+}
+
+.box-14 {
+    width:263px;
+    height:250px;
+    float:left;
+}
+
+.box-15 {
+    width:250px;
+    height:250px;
+    float:left;
+}
+
+.box-16 {
+    width:418px;
+    height:500px;
+    float:right;
+}
+
+.box-17 {
+    width:250px;
+    height:250px;
+    float:right;
+}
+
+.box-18 {
+    width:332px;
+    height:250px;
+    float:right;
+}
+
+.box-19 {
+    width:471px;
+    height:250px;
+    float:right;
+}
+
+.box-20 {
+    width:196px;
+    height:250px;
+    float:right;
+}
+
+footer {
+    height: 70px;
+    width:100%;
+    background-color:#593b43;
+}
+
+.footer-logo {
+    line-height:70px;
+    font-family: 'Book Antiqua';
+    text-align: center;
+    font-size:20px;
+    color:#F1B8B1;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        margin:0;
+        padding:0;
+    }
+    
+    
+    header {
+        height:70px;
+        width:100%;
+        background-color:#593b43;
+        position:fixed;
+        top:0;
+        z-index:10;
+    }
+    
+    .header-logo {
+        width:250px;
+        line-height:70px;
+        padding-left:25px;
+        font-size: 15px;
+        font-family: 'Book Antiqua';
+        color:#F1B8B1;
+    }
+    
+    
+    main {
+        height:6600px;
+        width:100%;
+        background-color:#F1B8B1 ;
+    }
+    
+    .top-wrapper {
+        height:11%;
+    }
+    
+    .container {
+        height:90%;
+        width:80%;
+        margin:70px auto 0;
+        padding-top: 40px;
+    }
+
+    .heading h1 {
+        font-size: 60px;
+        font-family: 'Book Antiqua';
+        margin: 25px 0;
+        color:#593b43;
+    }
+    
+    .heading {
+        height: 25%;
+        width:80%;
+        margin:30px auto 70px;
+        padding-left: 30px;
+    }
+    
+    .sentence p {
+        display:block;
+        font-size: 25px;
+        font-family: 'Book Antiqua';
+        text-align: center;
+        color:#593b43;
+    }
+    
+    .sentence {
+        height:65%;
+        width:85%;
+        margin:0 auto;
+    }
+    
+    .gallery-wrapper {
+        height:89%;
+        margin-top:0;
+        padding-top: 45px;
+        background-image: url("background-img/flower-lace\(iphone\).jpg");
+        background-color:rgba(241, 184, 177, 0.8);
+        background-blend-mode:lighten;
+    }
+    
+    .gallery-container {
+        height:80%;
+        width:82%;
+        margin: 0 auto ;
+    }
+    
+    .gallery-container div {
+        padding:2px 2px 2px 2px; 
+        margin:0 auto;
+    }
+    
+    img {
+        height:100%;
+        width:100%;
+        opacity: 0.9;
+        border-radius: 5px;
+    }
+    
+    /* *1.1 */
+    .box-01 {
+        width:290.4px;
+        height:275px;
+    }
+    
+    /* *1.2 */
+    .box-02 {
+        width:300px;
+        height:300px;
+    }
+    
+    .box-03 {
+        width:300px;
+        height:300px;
+    }
+    
+    .box-04 {
+        width:300px;
+        height:300px;
+    }
+    
+    .box-05 {
+        width:284.4px;
+        height:300px;
+    }
+    
+    .box-06 {
+        width:300px;
+        height:300px;
+    }
+    
+    .box-07 {
+        width:300px;
+        height:300px;
+    }
+    
+    /* stay */
+    .box-08 {
+        width:300px;
+        height:250px;
+    }
+    
+    /* 1.2 */
+    .box-09 {
+        width:300px;
+        height:300px;
+    }
+    
+    /* stay */
+    .box-10 {
+        width:310px;
+        height:250px;
+    }
+    
+    /* 1/2,*1.2 */
+    .box-11 {
+        width:306px;
+        height:300px;
+    }
+    
+    /* 1.2 */
+    .box-12 {
+        width:288px;
+        height:300px;
+    }
+    
+    .box-13 {
+        width:300px;
+        height:300px;
+    }
+    
+    /* 1.1 */
+    .box-14 {
+        width:290px;
+        height:275px;
+    }
+    
+    /* 1.2 */
+    .box-15 {
+        width: 300px;
+        height:300px;
+    }
+    
+    /* *1.4 */
+    .box-16 {
+        width:293px;
+        height:350px;
+    }
+    
+    /* *1.2 */
+    .box-17 {
+        width:300px;
+        height:300px;
+    }
+    
+    /* *0.9 */
+    .box-18 {
+        width:299px;
+        height:230px;
+    }
+    
+    /* *1.2 */
+    .box-19 {
+        width:282.6px;
+        height:150px;
+    }
+    
+    /* *1. 3*/
+    .box-20 {
+        width:255px;
+        height:325px;
+    }
+    
+    footer {
+        height: 70px;
+        width:100%;
+        background-color:#593b43;
+    }
+    
+    .footer-logo {
+        line-height:70px;
+        font-family: 'Book Antiqua';
+        text-align: center;
+        font-size:15px;
+        color:#F1B8B1;
+    }
+}
