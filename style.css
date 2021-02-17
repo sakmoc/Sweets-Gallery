@@ -72,7 +72,7 @@ main {
 .gallery-wrapper {
     height:82%;
     margin-top:0;
-    background-image: url("https://github.com/sakmoc/Sweets-Gallery/blob/main/flower-lace.jpg?raw=true");
+    background-image: url("../https://github.com/sakmoc/Sweets-Gallery/blob/main/flower-lace.jpg?raw=true");
     background-color:rgba(241, 184, 177, 0.8);
     background-blend-mode:lighten;
 }
@@ -309,7 +309,7 @@ footer {
         height:89%;
         margin-top:0;
         padding-top: 45px;
-        background-image: url("https://github.com/sakmoc/Sweets-Gallery/blob/main/flower-lace(iphone).jpg?raw=true");
+        background-image: url("../https://github.com/sakmoc/Sweets-Gallery/blob/main/flower-lace(iphone).jpg?raw=true");
         background-color:rgba(241, 184, 177, 0.8);
         background-blend-mode:lighten;
     }
